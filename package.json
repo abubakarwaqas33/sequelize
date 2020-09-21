@@ -1,0 +1,17 @@
+{
+  "name": "sequelize_test_project",
+  "version": "1.0.0",
+  "description": "This Project is for testing purpose ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.3",
+    "sequelize": "^6.3.5"
+  }
+}
