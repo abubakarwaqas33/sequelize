@@ -20,6 +20,9 @@ db.sequelize=sequelize;
 
 db.Articles = require('../modules/articles/model')(sequelize, Sequelize);
 db.Users = require('../modules/users/model')(sequelize, Sequelize);
+db.Emploeyee = require('../modules/employee/model')(sequelize, Sequelize);
+db.Compnay = require('../modules/company/model')(sequelize, Sequelize);
+
 
 db.Users.hasMany(db.Articles, { as: "articles",foreignKey: "uploaderId",});
 
